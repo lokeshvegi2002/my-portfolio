@@ -17,7 +17,7 @@ const Projects = () => {
       codeLink: 'https://github.com/username/project2',
     },
     {
-      title: 'SimenGame',
+      title: 'Simen',
       description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
       liveLink: 'https://example.com/project2',
