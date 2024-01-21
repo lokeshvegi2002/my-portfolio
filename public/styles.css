@@ -86,10 +86,20 @@ header {
     width: 300px;
     text-align: left;
   }
+  .project-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
   
   /* Project links styles */
   .project-links {
     margin-top: 1rem;
+    
+  }
+  .project-links a{
+    margin:1rem;
   }
 
   /* Section styles */

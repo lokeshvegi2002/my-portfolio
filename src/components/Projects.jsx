@@ -3,25 +3,36 @@ import React from 'react';
 const Projects = () => {
   const projects = [
     {
-      title: 'DrumKit',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      technologies: ['HTML', 'CSS', 'JavaScript'],
+      title: 'GroceryStore ManagementSystem',
+      description: 'built a user-friendly grocery store management system to efficiently handle inventory, sales, and customer data optimizing overall store operations.',
+      technologies: ['HTML', 'CSS', 'JavaScript','PHP','MYSQL'],
       liveLink: 'https://example.com/project1',
-      codeLink: 'https://github.com/username/project1',
+      codeLink: 'https://github.com/lokeshvegi2002/Grocerystore_management_system',
+      image: `${process.env.PUBLIC_URL}/images/grocerystore.png`,
     },
     {
       title: 'SimenGame',
-      description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      description: ' The project is developed using HTML, CSS, and JavaScript. It provides an interactive gaming experience while also serving as a platform for learning front-end web. ',
       technologies: ['HTML', 'CSS', 'JavaScript'],
-      liveLink: 'https://example.com/project2',
-      codeLink: 'https://github.com/username/project2',
+      liveLink: 'https://simengame.netlify.app/',
+      codeLink: 'https://github.com/lokeshvegi2002/simen_game',
+      image: `${process.env.PUBLIC_URL}/images/simen.png`,
     },
     {
-      title: 'Simen',
+      title: 'Drumkit',
       description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
       technologies: ['HTML', 'CSS', 'JavaScript'],
-      liveLink: 'https://example.com/project2',
-      codeLink: 'https://github.com/username/project2',
+      liveLink: 'drum-kitt45.netlify.app',
+      codeLink: 'https://github.com/lokeshvegi2002/drumkit',
+      image: `${process.env.PUBLIC_URL}/images/drumkit.png`,
+    },
+    {
+      title: 'Diecegame',
+      description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+      technologies: ['HTML', 'CSS', 'JavaScript'],
+      liveLink: 'https://diecegame10.netlify.app',
+      codeLink: 'https://github.com/lokeshvegi2002/diece_game',
+      image: `${process.env.PUBLIC_URL}/images/diecegame.png`,
     },
     // Add more projects as needed
   ];
@@ -33,6 +44,7 @@ const Projects = () => {
         {projects.map((project, index) => (
           <div className="project-card" key={index}>
             <h3>{project.title}</h3>
+            <img src={project.image} alt={project.title} className="project-image" />
             <p>{project.description}</p>
             <ul>
               {project.technologies.map((tech, i) => (
@@ -41,6 +53,7 @@ const Projects = () => {
             </ul>
             <div className="project-links">
               <a href={project.liveLink} target="_blank" rel="noopener noreferrer">Live Demo</a>
+
               <a href={project.codeLink} target="_blank" rel="noopener noreferrer">View Code</a>
             </div>
           </div>
