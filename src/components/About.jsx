@@ -6,7 +6,7 @@ const About = () => {
       <h2>About Me</h2>
       <img src={profileImage} alt="Profile" />
       <p>
-        Hi, I'm Vegi Lokesh, a web developer based in disakhapatnam. I have experience
+        Hi, I'm vegi lokesh, a web developer based in disakhapatnam. I have experience
         in webdevelopment, and I am passionate about software development.
       </p>
       <p>
