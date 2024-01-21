@@ -1,0 +1,200 @@
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  /* Logo styles */
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  /* Navigation styles */
+  nav {
+    margin-top: 1rem;
+  }
+  
+  /* List styles */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Link styles */
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+/* About section styles */
+#about {
+    background: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Heading styles */
+  #about h2 {
+    color: #333;
+  }
+
+  /* Image styles */
+  #about img {
+    max-width: 30%;
+    border-radius: 50%; /* Optional: Apply a border-radius for a circular image */
+    margin-top: 1rem;
+  }
+  
+  /* Paragraph styles */
+  #about p {
+    line-height: 1.6;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  /* Section styles */
+#projects {
+    background: #f8f8f8;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Heading styles */
+  #projects h2 {
+    color: #333;
+  }
+  
+  /* Project list styles */
+  .project-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+  
+  /* Project card styles */
+  .project-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 300px;
+    text-align: left;
+  }
+  
+  /* Project links styles */
+  .project-links {
+    margin-top: 1rem;
+  }
+
+  /* Section styles */
+#skills {
+    background: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Heading styles */
+  #skills h2 {
+    color: #333;
+  }
+  
+  /* Skill category styles */
+  .skill-category {
+    margin: 2rem 0;
+  }
+  
+  /* Skill list styles */
+  .skill-category ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Skill item styles */
+  .skill-category li {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+  }
+  
+/* Section styles */
+#contact {
+    background: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Heading styles */
+  #contact h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Form styles */
+  #contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Label styles */
+  #contact label {
+    color: #fff;
+    margin: 0.5rem 0;
+  }
+  
+  /* Input styles */
+  #contact input,
+  #contact textarea {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    width: 100%;
+  }
+  
+  /* Button styles */
+  #contact button {
+    background: #fff;
+    color: #333;
+    padding: 0.5rem 1rem;
+    margin: 1rem 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  /* Contact info styles */
+  #contact .contact-info {
+    margin-top: 2rem;
+  }
+  
+  /* Social Media Links styles */
+.social-media-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.social-media-links a {
+  margin: 0 10px; /* Adjust spacing between social media icons */
+}
+
+.social-media-links img {
+  width: 40px; /* Adjust the width of your social media icons */
+  height: 40px; /* Adjust the height of your social media icons */
+  border-radius: 50%; /* Make the icons circular */
+  transition: transform 0.3s ease-in-out; /* Add a smooth transition effect */
+}
+
+.social-media-links img:hover {
+  transform: scale(1.2); /* Add a zoom-in effect on hover */
+}
